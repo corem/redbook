@@ -1,0 +1,20 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\core\Project\redbook\target\scala-3.3.0\classes ...
+[error] -- [E006] Not Found Error: C:\Users\core\Project\redbook\src\main\scala\chapter2\Chapter2.scala:9:7 
+[error] 9 |    go(n, 0, 1)
+[error]   |       ^
+[error]   |       Not found: n
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: C:\Users\core\Project\redbook\src\main\scala\chapter2\Chapter2.scala:12:10 
+[error] 12 |  println(fibonacci(5))
+[error]    |          ^^^^^^^^^
+[error]    |          Not found: fibonacci
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 2 s, completed Jun 19, 2023, 10:04:56 PM
+[debug] > Exec(idea-shell, None, None)

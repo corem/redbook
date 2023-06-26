@@ -1,0 +1,734 @@
+2023.06.25 21:48:48 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\core\Project\redbook' for client Visual Studio Code 1.78.2.
+Jun 25, 2023 9:48:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 25, 2023 9:48:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 25, 2023 9:48:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 25, 2023 9:48:49 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\core\Project\redbook\.metals\metals (H2 2.1)
+Jun 25, 2023 9:48:49 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 25, 2023 9:48:49 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.021s)
+Jun 25, 2023 9:48:49 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 25, 2023 9:48:49 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 25, 2023 9:48:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 25, 2023 9:48:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 25, 2023 9:48:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 25, 2023 9:48:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 25, 2023 9:48:49 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.051s)
+2023.06.25 21:48:49 INFO  time: initialize in 0.65s
+2023.06.25 21:48:49 WARN  Build server is not auto-connectable.
+2023.06.25 21:48:53 WARN  no build target for: C:\Users\core\Project\redbook\src\main\scala\chapter2\Chapter2.scala
+2023.06.25 21:48:55 INFO  no build target found for C:\Users\core\Project\redbook\src\main\scala\chapter2\Chapter2.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.25 21:48:55 WARN  no build target for: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 21:48:57 INFO  running 'C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\core\AppData\Local\Temp\metals503440325582566490\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.25 21:48:58 INFO  time: code lens generation in 3.9s
+2023.06.25 21:48:58 INFO  time: code lens generation in 2.55s
+2023.06.25 21:48:58 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load5579662930962797545_lock, error 5
+2023.06.25 21:48:58 INFO  sbt thinks that server is already booting because of this exception:
+2023.06.25 21:48:58 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:356)
+2023.06.25 21:48:58 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:295)
+2023.06.25 21:48:58 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:151)
+2023.06.25 21:48:58 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:77)
+2023.06.25 21:48:58 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:77)
+2023.06.25 21:48:58 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:85)
+2023.06.25 21:48:58 ERROR 	at sbt.xMain$.run(Main.scala:122)
+2023.06.25 21:48:58 ERROR 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.06.25 21:48:58 ERROR 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023.06.25 21:48:58 ERROR 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023.06.25 21:48:58 ERROR 	at java.lang.reflect.Method.invoke(Method.java:498)
+2023.06.25 21:48:58 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:57)
+2023.06.25 21:48:58 ERROR 	at sbt.xMain.run(Main.scala:46)
+2023.06.25 21:48:58 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.06.25 21:48:58 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.06.25 21:48:58 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.06.25 21:48:58 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.06.25 21:48:58 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.06.25 21:48:58 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.06.25 21:48:58 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.06.25 21:48:58 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.06.25 21:48:58 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.06.25 21:48:58 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.06.25 21:48:58 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.06.25 21:48:58 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load5579662930962797545_lock, error 5
+2023.06.25 21:48:58 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.06.25 21:48:58 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.06.25 21:48:58 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:350)
+2023.06.25 21:48:58 ERROR 	... 23 more
+2023.06.25 21:48:58 INFO  time: ran 'sbt bloopInstall' in 1.49s
+2023.06.25 21:48:58 ERROR sbt command failed: C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\core\AppData\Local\Temp\metals503440325582566490\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.06.25 21:49:30 WARN  no build target for: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 21:49:30 WARN  no build target for: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 21:49:31 WARN  no build target for: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+Jun 25, 2023 9:50:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.06.25 21:50:50 WARN  no build target for: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+Jun 25, 2023 9:50:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:686)
+	at java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2014)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:469)
+	at scala.meta.internal.metals.MetalsLspService.executeCommand(MetalsLspService.scala:2031)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.06.25 22:00:20 WARN  no build target for: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:00:20 WARN  no build target for: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:00:20 WARN  no build target for: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:01:36 WARN  no build target for: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+Jun 25, 2023 10:02:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.06.25 22:02:05 WARN  no build target for: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:02:06 WARN  no build target for: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:02:06 WARN  no build target for: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+Jun 25, 2023 10:02:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.06.25 22:04:21 INFO  running 'C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\core\AppData\Local\Temp\metals4800328785266705688\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.25 22:04:22 INFO  [info] welcome to sbt 1.9.0 (AdoptOpenJDK Java 1.8.0_292)
+2023.06.25 22:04:22 INFO  [info] loading global plugins from C:\Users\core\.sbt\1.0\plugins
+2023.06.25 22:04:24 INFO  [info] loading settings for project redbook-build-build from metals.sbt ...
+2023.06.25 22:04:24 INFO  [info] loading project definition from C:\Users\core\Project\redbook\project\project
+2023.06.25 22:04:24 INFO  [info] loading settings for project redbook-build from metals.sbt ...
+2023.06.25 22:04:24 INFO  [info] loading project definition from C:\Users\core\Project\redbook\project
+2023.06.25 22:04:27 INFO  [success] Generated .bloop\redbook-build.json
+2023.06.25 22:04:27 INFO  [success] Total time: 2 s, completed Jun 25, 2023 10:04:27 PM
+2023.06.25 22:04:27 INFO  [info] loading settings for project root from build.sbt ...
+2023.06.25 22:04:27 INFO  [info] set current project to redbook (in build file:/C:/Users/core/Project/redbook/)
+2023.06.25 22:04:27 INFO  [success] Generated .bloop\root.json
+2023.06.25 22:04:27 INFO  [success] Generated .bloop\root-test.json
+2023.06.25 22:04:27 INFO  [success] Total time: 0 s, completed Jun 25, 2023 10:04:27 PM
+2023.06.25 22:04:27 INFO  time: ran 'sbt bloopInstall' in 5.88s
+2023.06.25 22:04:27 INFO  Attempting to connect to the build server...
+2023.06.25 22:04:27 INFO  Bloop uses C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\core\.bloop\bloop.json
+2023.06.25 22:04:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\bsp.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 22:04:28 INFO  Attempting to connect to the build server...
+2023.06.25 22:04:28 INFO  Bloop uses C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\core\.bloop\bloop.json
+2023.06.25 22:04:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\project\.metals\bsp.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 22:04:31 INFO  time: Connected to build server in 3.56s
+2023.06.25 22:04:31 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.25 22:04:34 INFO  time: indexed workspace in 2.84s
+2023.06.25 22:04:48 INFO  Disconnecting from Bloop session...
+2023.06.25 22:04:48 INFO  Shut down connection with build server.
+2023.06.25 22:04:48 INFO  Shut down connection with build server.
+2023.06.25 22:04:48 INFO  Attempting to connect to the build server...
+2023.06.25 22:04:48 INFO  Bloop uses C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\core\.bloop\bloop.json
+2023.06.25 22:04:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\bsp.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 22:04:48 INFO  Attempting to connect to the build server...
+2023.06.25 22:04:48 INFO  Bloop uses C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\core\.bloop\bloop.json
+2023.06.25 22:04:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\project\.metals\bsp.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 22:04:48 INFO  time: Connected to build server in 66ms
+2023.06.25 22:04:48 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.25 22:04:48 INFO  Disconnecting from Bloop session...
+2023.06.25 22:04:48 INFO  Shut down connection with build server.
+2023.06.25 22:04:48 INFO  Shut down connection with build server.
+2023.06.25 22:04:48 INFO  Attempting to connect to the build server...
+2023.06.25 22:04:48 INFO  Bloop uses C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\core\.bloop\bloop.json
+2023.06.25 22:04:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\bsp.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 22:04:48 INFO  Attempting to connect to the build server...
+2023.06.25 22:04:48 INFO  Bloop uses C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\core\.bloop\bloop.json
+2023.06.25 22:04:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\project\.metals\bsp.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 22:04:48 INFO  time: Connected to build server in 65ms
+2023.06.25 22:04:48 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.25 22:04:48 INFO  time: indexed workspace in 0.56s
+2023.06.25 22:04:48 INFO  time: indexed workspace in 0.58s
+2023.06.25 22:05:21 INFO  Shutting down server
+2023.06.25 22:05:21 INFO  shutting down Metals
+2023.06.25 22:05:21 INFO  Shut down connection with build server.
+2023.06.25 22:05:21 INFO  Shut down connection with build server.
+2023.06.25 22:05:21 INFO  Exiting server
+2023.06.25 22:05:30 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\core\Project\redbook' for client Visual Studio Code 1.79.2.
+Jun 25, 2023 10:05:30 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 25, 2023 10:05:30 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 25, 2023 10:05:30 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 25, 2023 10:05:30 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\core\Project\redbook\.metals\metals (H2 2.1)
+Jun 25, 2023 10:05:30 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.017s)
+Jun 25, 2023 10:05:30 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 25, 2023 10:05:30 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.25 22:05:30 INFO  time: initialize in 0.44s
+2023.06.25 22:05:31 INFO  Attempting to connect to the build server...
+2023.06.25 22:05:31 INFO  Bloop uses C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\core\.bloop\bloop.json
+2023.06.25 22:05:30 INFO  skipping build import with status 'Installed'
+2023.06.25 22:05:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\bsp.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 22:05:31 INFO  Attempting to connect to the build server...
+2023.06.25 22:05:31 INFO  Bloop uses C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\core\.bloop\bloop.json
+2023.06.25 22:05:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\project\.metals\bsp.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 22:05:31 INFO  time: Connected to build server in 0.2s
+2023.06.25 22:05:31 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.25 22:05:33 INFO  time: indexed workspace in 1.7s
+2023.06.25 22:05:45 INFO  compiling root (2 scala sources)
+2023.06.25 22:05:48 INFO  time: compiled root in 2.98s
+2023.06.25 22:06:20 INFO  running 'C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\core\AppData\Local\Temp\metals5120065615089444456\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.06.25 22:06:21 INFO  [info] welcome to sbt 1.9.0 (AdoptOpenJDK Java 1.8.0_292)
+2023.06.25 22:06:21 INFO  [info] loading global plugins from C:\Users\core\.sbt\1.0\plugins
+2023.06.25 22:06:23 INFO  [info] loading settings for project redbook-build-build from metals.sbt ...
+2023.06.25 22:06:23 INFO  [info] loading project definition from C:\Users\core\Project\redbook\project\project
+2023.06.25 22:06:23 INFO  [info] loading settings for project redbook-build from metals.sbt ...
+2023.06.25 22:06:23 INFO  [info] loading project definition from C:\Users\core\Project\redbook\project
+2023.06.25 22:06:24 INFO  [success] Generated .bloop\redbook-build.json
+2023.06.25 22:06:24 INFO  [success] Total time: 1 s, completed Jun 25, 2023 10:06:24 PM
+2023.06.25 22:06:24 INFO  [info] loading settings for project root from build.sbt ...
+2023.06.25 22:06:24 INFO  [info] set current project to redbook (in build file:/C:/Users/core/Project/redbook/)
+2023.06.25 22:06:24 INFO  [success] Generated .bloop\root.json
+2023.06.25 22:06:24 INFO  [success] Generated .bloop\root-test.json
+2023.06.25 22:06:24 INFO  [success] Total time: 0 s, completed Jun 25, 2023 10:06:25 PM
+2023.06.25 22:06:25 INFO  time: ran 'sbt bloopInstall' in 4.36s
+2023.06.25 22:06:25 INFO  Disconnecting from Bloop session...
+2023.06.25 22:06:25 INFO  Shut down connection with build server.
+2023.06.25 22:06:25 INFO  Shut down connection with build server.
+2023.06.25 22:06:25 INFO  Attempting to connect to the build server...
+2023.06.25 22:06:25 INFO  Bloop uses C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\core\.bloop\bloop.json
+2023.06.25 22:06:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\bsp.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 22:06:25 INFO  Attempting to connect to the build server...
+2023.06.25 22:06:25 INFO  Bloop uses C:\Users\core\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\core\.bloop\bloop.json
+2023.06.25 22:06:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\project\.metals\bsp.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.06.25 22:06:25 INFO  time: Connected to build server in 0.1s
+2023.06.25 22:06:25 INFO  Connected to Build server: Bloop v1.5.6
+2023.06.25 22:06:25 INFO  time: indexed workspace in 0.45s
+2023.06.25 22:10:36 INFO  compiling root (1 scala source)
+2023.06.25 22:10:36 INFO  time: compiled root in 0.48s
+2023.06.25 22:10:42 INFO  compiling root (1 scala source)
+2023.06.25 22:10:42 INFO  time: compiled root in 0.4s
+2023.06.25 22:11:30 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _ => 101
+         ^
+2023.06.25 22:11:30 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _ => 101
+         ^
+2023.06.25 22:11:39 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _ => 101
+         ^
+2023.06.25 22:11:39 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _ => 101
+         ^
+2023.06.25 22:11:58 INFO  C:\Users\core\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\scala-debug-step-filter_3\3.0.5\scala-debug-step-filter_3-3.0.5.jar
+2023.06.25 22:11:58 INFO  C:\Users\core\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.3.0\tasty-core_3-3.3.0.jar
+2023.06.25 22:11:58 INFO  C:\Users\core\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.0\scala3-library_3-3.3.0.jar
+2023.06.25 22:11:58 INFO  C:\Users\core\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\tasty-query_3\0.3.1\tasty-query_3-0.3.1.jar
+2023.06.25 22:11:58 INFO  C:\Users\core\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar
+Jun 25, 2023 10:12:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.06.25 22:12:01 INFO  Configured debugger context in 2 seconds
+2023.06.25 22:12:01 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\dap-server.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.06.25 22:12:01 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\dap-client.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.06.25 22:12:01 INFO  Starting debug proxy for [chapter3.mainTest]
+2023.06.25 22:12:01 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:52257 .
+2023.06.25 22:12:01 INFO  Attaching to debuggee VM succeeded.
+2023.06.25 22:12:01 INFO  Canceling debug proxy for [chapter3.mainTest]
+2023.06.25 22:12:01 INFO  Closing debug server tcp://0.0.0.0:52253
+Jun 25, 2023 10:12:01 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:152)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:68)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:118)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+2023.06.25 22:12:06 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.12' (since 5m 40.824s)
+2023.06.25 22:12:11 INFO  Configured debugger context in 1 second
+2023.06.25 22:12:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\dap-server.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.06.25 22:12:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\dap-client.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.06.25 22:12:11 INFO  Starting debug proxy for [chapter3.mainTest]
+2023.06.25 22:12:11 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:52273 .
+2023.06.25 22:12:11 INFO  Attaching to debuggee VM succeeded.
+2023.06.25 22:12:11 INFO  Canceling debug proxy for [chapter3.mainTest]
+2023.06.25 22:12:11 INFO  Closing debug server tcp://0.0.0.0:52270
+2023.06.25 22:12:44 INFO  time: code lens generation in 1.66s
+2023.06.25 22:12:53 WARN  no build target for: C:\Users\core\Project\redbook\project\metals.sbt
+2023.06.25 22:13:23 INFO  compiling root (1 scala source)
+2023.06.25 22:13:23 INFO  time: compiled root in 0.37s
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.jar
+2023.06.25 22:13:47 INFO  compiling root (1 scala source)
+2023.06.25 22:13:47 INFO  time: compiled root in 0.27s
+2023.06.25 22:14:29 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.12' (since 8m 4.603s)
+2023.06.25 22:14:35 INFO  Configured debugger context in 1 second
+2023.06.25 22:14:35 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\dap-server.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.06.25 22:14:35 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\dap-client.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.06.25 22:14:35 INFO  Starting debug proxy for [chapter3.mainTest]
+2023.06.25 22:14:35 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:52404 .
+2023.06.25 22:14:35 INFO  Attaching to debuggee VM succeeded.
+2023.06.25 22:14:35 INFO  Canceling debug proxy for [chapter3.mainTest]
+2023.06.25 22:14:35 INFO  Closing debug server tcp://0.0.0.0:52401
+2023.06.25 22:14:52 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.12' (since 8m 27.31s)
+2023.06.25 22:14:57 INFO  Configured debugger context in 1 second
+2023.06.25 22:14:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\dap-server.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.06.25 22:14:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\dap-client.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.06.25 22:14:57 INFO  Starting debug proxy for [chapter3.mainTest]
+2023.06.25 22:14:57 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:52425 .
+2023.06.25 22:14:57 INFO  Attaching to debuggee VM succeeded.
+2023.06.25 22:15:53 INFO  Canceling debug proxy for [chapter3.mainTest]
+2023.06.25 22:15:53 INFO  Closing debug server tcp://0.0.0.0:52422
+Jun 25, 2023 10:19:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 421
+2023.06.25 22:19:03 INFO  compiling root (1 scala source)
+2023.06.25 22:19:03 INFO  time: compiled root in 0.25s
+2023.06.25 22:19:05 INFO  compiling root (1 scala source)
+2023.06.25 22:19:05 INFO  time: compiled root in 0.22s
+Jun 25, 2023 10:25:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 486
+Jun 25, 2023 10:25:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 490
+2023.06.25 22:25:14 INFO  compiling root (1 scala source)
+2023.06.25 22:25:14 INFO  time: compiled root in 79ms
+2023.06.25 22:25:25 INFO  compiling root (1 scala source)
+2023.06.25 22:25:25 INFO  time: compiled root in 66ms
+2023.06.25 22:25:30 INFO  compiling root (1 scala source)
+2023.06.25 22:25:30 INFO  time: compiled root in 0.23s
+2023.06.25 22:25:39 INFO  compiling root (1 scala source)
+2023.06.25 22:25:39 INFO  time: compiled root in 0.17s
+2023.06.25 22:25:43 INFO  compiling root (1 scala source)
+2023.06.25 22:25:43 INFO  time: compiled root in 0.18s
+2023.06.25 22:28:45 INFO  compiling root (1 scala source)
+2023.06.25 22:28:45 INFO  time: compiled root in 0.18s
+2023.06.25 22:29:27 INFO  compiling root (1 scala source)
+2023.06.25 22:29:27 INFO  time: compiled root in 0.18s
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, _)
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:55:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, _)
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:55:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, _)
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:55:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, _)
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:55:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, _)
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:55:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, _)
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:55:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, _)
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:55:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:42 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:43 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:29:43 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, _)
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:29:43 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:55:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:43 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")
+         ^^^
+2023.06.25 22:29:50 INFO  compiling root (1 scala source)
+2023.06.25 22:29:50 INFO  time: compiled root in 0.18s
+2023.06.25 22:29:55 INFO  compiling root (1 scala source)
+2023.06.25 22:29:55 INFO  time: compiled root in 0.19s
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, Cons(_, _))
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")  
+         ^^^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, Cons(_, _))
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")  
+         ^^^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, Cons(_, _))
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")  
+         ^^^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, Cons(_, _))
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")  
+         ^^^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, Cons(_, _))
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")  
+         ^^^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, Cons(_, _))
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")  
+         ^^^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, Cons(_, _))
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")  
+         ^^^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, Cons(_, _))
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")  
+         ^^^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, Cons(_, _))
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:31:03 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")  
+         ^^^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, Cons(_, _))
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")  
+         ^^^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, Cons(_, _))
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")  
+         ^^^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:28:10: stale bloop warning: Unreachable case except for null (if this is intentional, consider writing case null => instead).
+    case _                                     => 101
+         ^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:53:39: stale bloop warning: match may not be exhaustive.
+
+It would fail on pattern case: Cons(_, Cons(_, _))
+
+  def init[A](as: List[A]): List[A] = as match
+                                      ^^
+2023.06.25 22:31:04 INFO  file:///C:/Users/core/Project/redbook/src/main/scala/chapter3/Chapter3.scala:56:10: stale bloop warning: Unreachable case
+    case Nil => sys.error("init of empty list")  
+         ^^^
+2023.06.25 22:31:05 INFO  compiling root (1 scala source)
+2023.06.25 22:31:05 INFO  time: compiled root in 0.28s
+2023.06.25 22:31:08 WARN  Could not load snapshot text for C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:31:11 WARN  Could not load snapshot text for C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:31:19 WARN  Could not load snapshot text for C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:31:20 WARN  Could not load snapshot text for C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:31:22 WARN  Could not load snapshot text for C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:31:23 WARN  Could not load snapshot text for C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:31:25 WARN  Could not load snapshot text for C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:31:26 WARN  Could not load snapshot text for C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:31:27 WARN  Could not load snapshot text for C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala
+2023.06.25 22:31:28 INFO  compiling root (1 scala source)
+2023.06.25 22:31:28 INFO  time: compiled root in 0.23s
+2023.06.25 22:31:38 INFO  compiling root (1 scala source)
+2023.06.25 22:31:38 INFO  time: compiled root in 0.18s
+Jun 25, 2023 11:02:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 25, 2023 11:03:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 25, 2023 11:03:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 25, 2023 11:27:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2576)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+2023.06.25 23:27:16 INFO  compiling root (1 scala source)
+2023.06.25 23:27:16 INFO  time: compiled root in 63ms
+Jun 26, 2023 9:58:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1593
+2023.06.26 09:58:08 INFO  compiling root (1 scala source)
+2023.06.26 09:58:08 INFO  time: compiled root in 0.43s
+2023.06.26 09:58:11 INFO  compiling root (1 scala source)
+2023.06.26 09:58:11 INFO  time: compiled root in 0.38s
+Jun 26, 2023 9:58:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1654
+2023.06.26 09:58:38 INFO  compiling root (1 scala source)
+2023.06.26 09:58:38 INFO  time: compiled root in 50ms
+2023.06.26 09:58:41 INFO  compiling root (1 scala source)
+2023.06.26 09:58:41 INFO  time: compiled root in 41ms
+2023.06.26 09:58:52 INFO  compiling root (1 scala source)
+2023.06.26 09:58:52 INFO  time: compiled root in 47ms
+2023.06.26 09:58:54 INFO  compiling root (1 scala source)
+2023.06.26 09:58:54 INFO  time: compiled root in 0.16s
+2023.06.26 09:59:00 INFO  compiling root (1 scala source)
+2023.06.26 09:59:00 INFO  time: compiled root in 0.14s
+2023.06.26 09:59:04 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.12' (since 11h 52m 39.686s)
+2023.06.26 09:59:12 INFO  Configured debugger context in 3 seconds
+2023.06.26 09:59:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\dap-server.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.06.26 09:59:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\core\Project\redbook\.metals\dap-client.trace.json or C:\Users\core\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.06.26 09:59:12 INFO  Starting debug proxy for [chapter4.mainTest]
+2023.06.26 09:59:12 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:58382 .
+2023.06.26 09:59:12 INFO  Attaching to debuggee VM succeeded.
+2023.06.26 09:59:12 INFO  Canceling debug proxy for [chapter4.mainTest]
+2023.06.26 09:59:12 INFO  Closing debug server tcp://0.0.0.0:58378
+2023.06.26 10:00:31 INFO  compiling root (1 scala source)
+2023.06.26 10:00:31 INFO  time: compiled root in 0.12s
+2023.06.26 10:01:19 INFO  compiling root (1 scala source)
+2023.06.26 10:01:19 INFO  time: compiled root in 0.14s
+Jun 26, 2023 10:01:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 248
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 248
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 248
+	at java.lang.String.substring(String.java:1963)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.06.26 10:01:36 INFO  compiling root (1 scala source)
+2023.06.26 10:01:36 INFO  time: compiled root in 36ms
+2023.06.26 10:01:43 INFO  compiling root (1 scala source)
+2023.06.26 10:01:43 INFO  time: compiled root in 0.16s
+2023.06.26 10:01:47 INFO  compiling root (1 scala source)
+2023.06.26 10:01:47 INFO  time: compiled root in 0.16s

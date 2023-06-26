@@ -1,0 +1,14 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\core\Project\redbook\target\scala-3.3.0\classes ...
+[warn] -- [E121] Pattern Match Warning: C:\Users\core\Project\redbook\src\main\scala\chapter3\Chapter3.scala:28:9 
+[warn] 28 |    case _ => 101
+[warn]    |         ^
+[warn]    |Unreachable case except for null (if this is intentional, consider writing case null => instead).
+[warn] one warning found
+[info] done compiling
+[success] Total time: 1 s, completed Jun 25, 2023, 8:16:09 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
