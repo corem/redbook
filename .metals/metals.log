@@ -732,3 +732,134 @@ Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range:
 2023.06.26 10:01:43 INFO  time: compiled root in 0.16s
 2023.06.26 10:01:47 INFO  compiling root (1 scala source)
 2023.06.26 10:01:47 INFO  time: compiled root in 0.16s
+Jun 26, 2023 1:33:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.06.26 13:35:59 INFO  compiling root (1 scala source)
+2023.06.26 13:35:59 INFO  time: compiled root in 0.2s
+2023.06.26 13:36:09 INFO  compiling root (1 scala source)
+2023.06.26 13:36:09 INFO  time: compiled root in 0.11s
+2023.06.26 13:36:12 INFO  compiling root (1 scala source)
+2023.06.26 13:36:12 INFO  time: compiled root in 86ms
+2023.06.26 13:36:26 INFO  compiling root (1 scala source)
+2023.06.26 13:36:26 INFO  time: compiled root in 0.26s
+2023.06.26 13:39:39 INFO  compiling root (1 scala source)
+2023.06.26 13:39:39 INFO  time: compiled root in 82ms
+2023.06.26 13:39:43 INFO  compiling root (1 scala source)
+2023.06.26 13:39:43 INFO  time: compiled root in 0.24s
+2023.06.26 13:40:20 INFO  compiling root (1 scala source)
+2023.06.26 13:40:20 INFO  time: compiled root in 0.43s
+2023.06.26 15:50:52 INFO  compiling root (1 scala source)
+2023.06.26 15:50:52 INFO  time: compiled root in 0.12s
+2023.06.26 16:40:13 INFO  compiling root (1 scala source)
+2023.06.26 16:40:13 INFO  time: compiled root in 0.18s
+2023.06.26 16:40:15 INFO  compiling root (1 scala source)
+2023.06.26 16:40:15 INFO  time: compiled root in 95ms
+2023.06.26 16:41:12 INFO  compiling root (1 scala source)
+2023.06.26 16:41:12 INFO  time: compiled root in 0.41s
+2023.06.26 16:41:23 INFO  compiling root (1 scala source)
+2023.06.26 16:41:23 INFO  time: compiled root in 0.12s
+2023.06.26 16:41:27 INFO  compiling root (1 scala source)
+2023.06.26 16:41:27 INFO  time: compiled root in 0.1s
+2023.06.26 16:41:29 INFO  compiling root (1 scala source)
+2023.06.26 16:41:29 INFO  time: compiled root in 0.1s
+2023.06.26 16:41:32 INFO  compiling root (1 scala source)
+2023.06.26 16:41:32 INFO  time: compiled root in 0.28s
+2023.06.26 16:42:11 INFO  compiling root (1 scala source)
+2023.06.26 16:42:11 INFO  time: compiled root in 0.72s
+Jun 26, 2023 4:45:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: bad parameter reference A at typer
+the parameter is type A in class Option but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = ,
+constraint =  uninstantiated variables:
+ constrained types:
+ bounds:
+ ordering:
+ co-deps:
+ contra-deps:
+
+dotty.tools.dotc.core.TypeError$$anon$1: bad parameter reference A at typer
+the parameter is type A in class Option but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = ,
+constraint =  uninstantiated variables:
+ constrained types:
+ bounds:
+ ordering:
+ co-deps:
+ contra-deps:
+
+
+Jun 26, 2023 4:45:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: bad parameter reference A at typer
+the parameter is type A in class Option but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = ,
+constraint =  uninstantiated variables:
+ constrained types:
+ bounds:
+ ordering:
+ co-deps:
+ contra-deps:
+
+dotty.tools.dotc.core.TypeError$$anon$1: bad parameter reference A at typer
+the parameter is type A in class Option but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = ,
+constraint =  uninstantiated variables:
+ constrained types:
+ bounds:
+ ordering:
+ co-deps:
+ contra-deps:
+
+
+2023.06.26 16:46:03 INFO  compiling root (1 scala source)
+2023.06.26 16:46:03 INFO  time: compiled root in 0.2s
+Jun 26, 2023 4:47:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2576)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:92)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+Jun 26, 2023 4:47:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3260
+2023.06.26 16:47:11 INFO  compiling root (1 scala source)
+2023.06.26 16:47:11 INFO  time: compiled root in 0.17s
+2023.06.26 16:47:15 INFO  compiling root (1 scala source)
+2023.06.26 16:47:15 INFO  time: compiled root in 0.17s
+2023.06.26 16:47:30 INFO  compiling root (1 scala source)
+2023.06.26 16:47:30 INFO  time: compiled root in 0.2s
+2023.06.26 16:47:42 INFO  compiling root (1 scala source)
+2023.06.26 16:47:42 INFO  time: compiled root in 0.21s
+2023.06.26 16:48:00 INFO  compiling root (1 scala source)
+2023.06.26 16:48:00 INFO  time: compiled root in 0.24s
+2023.06.26 16:48:04 INFO  compiling root (1 scala source)
+2023.06.26 16:48:04 INFO  time: compiled root in 0.17s
+2023.06.26 16:51:04 INFO  compiling root (1 scala source)
+2023.06.26 16:51:04 INFO  time: compiled root in 82ms
+2023.06.26 16:51:11 INFO  compiling root (1 scala source)
+2023.06.26 16:51:11 INFO  time: compiled root in 0.19s
+2023.06.26 17:26:15 INFO  compiling root (1 scala source)
+2023.06.26 17:26:15 INFO  time: compiled root in 76ms
+2023.06.26 17:26:18 INFO  compiling root (1 scala source)
+2023.06.26 17:26:18 INFO  time: compiled root in 72ms
+2023.06.26 17:33:03 INFO  compiling root (1 scala source)
+2023.06.26 17:33:03 INFO  time: compiled root in 91ms
+2023.06.26 17:33:09 INFO  compiling root (1 scala source)
+2023.06.26 17:33:09 INFO  time: compiled root in 88ms
+2023.06.26 17:33:16 INFO  compiling root (1 scala source)
+2023.06.26 17:33:16 INFO  time: compiled root in 0.11s
+2023.06.26 17:34:00 INFO  compiling root (1 scala source)
+2023.06.26 17:34:00 INFO  time: compiled root in 0.21s
+2023.06.26 17:34:34 INFO  compiling root (1 scala source)
+2023.06.26 17:34:34 INFO  time: compiled root in 0.18s
+2023.06.26 17:34:51 INFO  compiling root (1 scala source)
+2023.06.26 17:34:51 INFO  time: compiled root in 0.17s
